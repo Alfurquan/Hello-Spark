@@ -1,5 +1,5 @@
-# Use the latest Ubuntu image as the base
-FROM ubuntu:latest
+# Use a specific Ubuntu version
+FROM ubuntu:22.04
 
 # Set environment variables for non-interactive apt
 ENV DEBIAN_FRONTEND=noninteractive
